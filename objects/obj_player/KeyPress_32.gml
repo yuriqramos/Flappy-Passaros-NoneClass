@@ -1,13 +1,13 @@
 ///@description Jogador voa quando aperta espaço
 
-// Aumenta a altura do jogador 
-vspeed -= (bater_asas * 2);
+// Controlando o voo do pássaro
 
-// Controlando a animação de voo do pássaro
-
-// Se a animação não tiver começado, agora ela começa
+// Se a animação não tiver começado, o evento de voo ativa
 if(image_index == 0)
 {
+	// Aumenta a altura do jogador 
+	vspeed -= (bater_asas * 2);
+
 	// Já pula a animação para o frame do pássaro voando
 	image_index = 1;
 	

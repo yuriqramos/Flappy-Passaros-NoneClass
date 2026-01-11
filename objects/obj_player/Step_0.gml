@@ -10,5 +10,3 @@ if vspeed >= bater_asas vspeed = bater_asas;
 
 // Limita a velocidade para não voar muito
 if vspeed <= -bater_asas vspeed = -bater_asas;
-
-show_debug_message(vspeed);
