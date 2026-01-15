@@ -1,5 +1,8 @@
 ///@description Jogador voa quando aperta espaço
 
+// O jogador não pode pular se ele perdeu
+if (global.perdeu) exit;
+
 // Controlando o voo do pássaro
 
 // Se a animação não tiver começado, o evento de voo ativa
