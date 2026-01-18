@@ -15,7 +15,7 @@ function perde_jogo() // Roda quando o jogador perde
 	// Ativa a variável de perda para ativar os efeitos
 	global.perdeu = true;
 	
-	// Faz o jogador se mover para trás e cair
+	// Faz o jogador ser jogado para trás
 	hspeed = -bater_asas;
 	vspeed = -bater_asas;
 	
