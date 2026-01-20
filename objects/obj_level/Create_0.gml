@@ -8,3 +8,6 @@ alarm[0] = tempo_alarme * random_range(1, 5);
 
 // Chama o alarme 1 para criar pássaros
 alarm[1] = tempo_alarme * random_range(2, 6);
+
+// Chama o alarme 2 para começar a dar os pontos
+alarm[2] = tempo_alarme;

@@ -3,6 +3,9 @@
 // Variável que avisa se o jogador perdeu
 global.perdeu = false;
 
+// Variável dos pontos
+global.pontos = 0;
+
 #endregion
 
 #region Funções
