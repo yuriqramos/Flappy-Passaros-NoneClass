@@ -6,6 +6,11 @@ global.perdeu = false;
 // Variável dos pontos
 global.pontos = 0;
 
+// Variável dos levels
+global.level = 1;
+
+global.lista_pontos = [10, 25, 50, 80, 120, 180, 250, 350, 500];
+
 #endregion
 
 #region Funções
@@ -17,6 +22,12 @@ function perde_jogo() // Roda quando o jogador perde
 	
 	// Ativa a variável de perda para ativar os efeitos
 	global.perdeu = true;
+	
+	// Reinicia os pontos
+	global.pontos = 0;
+	
+	// Reinicia a variável de levels
+	global.level = 1;
 	
 	// Faz o jogador ser jogado para trás
 	hspeed = -bater_asas;
