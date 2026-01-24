@@ -9,7 +9,11 @@ global.pontos = 0;
 // Variável dos levels
 global.level = 1;
 
+// Variável com a quantidade de pontos necessárias para o próximo level
 global.lista_pontos = [10, 25, 50, 80, 120, 180, 250, 350, 500];
+
+// Variável de coletáveis
+global.peixes = 0;
 
 #endregion
 

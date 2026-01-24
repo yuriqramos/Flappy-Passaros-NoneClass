@@ -1,4 +1,4 @@
 ///@description Configurações iniciais
 
 // Velocidade da árvore na horizontal
-hspeed = -5;
+hspeed = -2;

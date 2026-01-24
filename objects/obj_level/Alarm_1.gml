@@ -7,4 +7,4 @@ var _passaro_x = 704;
 instance_create_layer(_passaro_x, _passaro_y, "Passaros", obj_passaro)
 
 // Tocando o alarme novamente
-alarm[1] = tempo_alarme * random_range(2, 6);
+alarm[1] = tempo_alarme * random_range(1, 6);
