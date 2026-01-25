@@ -11,3 +11,6 @@ alarm[1] = tempo_alarme * random_range(2, 6);
 
 // Chama o alarme 2 para começar a dar os pontos
 alarm[2] = tempo_alarme;
+
+// Chama o alarme 3 para criar os peixes
+alarm[3] = tempo_alarme * random_range(3, 6);

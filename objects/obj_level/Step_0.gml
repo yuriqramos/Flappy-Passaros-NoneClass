@@ -11,5 +11,10 @@ if (global.level < 9){
 	{
 		// Adiciona 1 level
 		global.level++;
+		
+		// Fazendo o fundo ganhar mais velocidade
+		layer_hspeed("bg_arvores", -global.level);
+		layer_hspeed("bg_reflexo_arvores", -global.level);
+		layer_hspeed("bg_reflexo_2", -global.level * 0.5);
 	}
 }
