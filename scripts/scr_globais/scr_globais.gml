@@ -51,4 +51,9 @@ function perde_jogo() // Roda quando o jogador perde
 	
 }
 
+function muda_room() // Toca quando troca de room
+{
+	room_goto(rm_jogo);
+}
+
 #endregion

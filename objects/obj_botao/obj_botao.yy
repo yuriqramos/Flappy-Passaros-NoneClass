@@ -5,6 +5,8 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_botao",
@@ -32,6 +34,7 @@
     {"$GMObjectProperty":"v2","%Name":"fonte","filters":[
         "GMFont",
       ],"listItems":[],"multiselect":false,"name":"fonte","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"fnt_botao","path":"fonts/fnt_botao/fnt_botao.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"fnt_botao","varType":5,},
+    {"$GMObjectProperty":"v2","%Name":"cor_texto","filters":[],"listItems":[],"multiselect":false,"name":"cor_texto","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"$FFFFFFFF","varType":7,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
