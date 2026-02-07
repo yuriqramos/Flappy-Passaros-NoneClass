@@ -18,5 +18,11 @@ escala_texto_x = 0.7;
 // Aumenta o texto do botão em 30%
 escala_texto_y = 1.3;
 
+// Faz a transiçaõ SE ela não foi iniciada
+
+// if(global.transicao == false)
+// Avisando sobre a room que irá abrir
+global.destino = destino;
+
 // Criando a transição quando aperta o botão
 layer_sequence_create("Transicao", 0, 0, sq_transicao1);

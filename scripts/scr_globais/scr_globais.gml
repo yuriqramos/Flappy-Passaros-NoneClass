@@ -15,6 +15,12 @@ global.lista_pontos = [10, 25, 50, 80, 120, 180, 250, 350, 500];
 // Variável de coletáveis
 global.peixes = 0;
 
+// Variável com o destino da minha transição
+global.destino = rm_jogo;
+
+// Variável para saber se a transição foi iniciada
+global.transicao = false;
+
 #endregion
 
 #region Funções
@@ -45,6 +51,12 @@ function perde_jogo() // Roda quando o jogador perde
 	layer_hspeed("bg_arvores", 0);
 	layer_hspeed("bg_reflexo_arvores", 0);
 	layer_hspeed("bg_reflexo_2", 0);
+	
+	// Criando a transição para 
+	layer_sequence_create("Transicao", 0, 0, sq_transicao1);
+	
+	//Trocando o destino da room inicial
+	global.destino = rm_inicio;
 
 	// Avisando o jogador para reiniciar o jogo em 1 seg
 	alarm[0] = game_get_speed(gamespeed_fps);
@@ -53,7 +65,7 @@ function perde_jogo() // Roda quando o jogador perde
 
 function muda_room() // Toca quando troca de room
 {
-	room_goto(rm_jogo);
+	room_goto(global.destino);
 }
 
 #endregion
