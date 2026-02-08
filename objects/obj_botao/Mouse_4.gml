@@ -19,6 +19,17 @@ escala_texto_x = 0.7;
 escala_texto_y = 1.3;
 
 // Faz a transiçaõ SE ela não foi iniciada
+if (global.transicao == false)
+{
+	// Avisando que o destino da transição é o meu destino
+	global.destino = destino;
+	
+	// Criando a transição 
+	layer_sequence_create("Transicao", 0, 0, sq_transicao1);
+	
+	// Avisando que a transição foi iniciada
+	global.transicao = true;
+}
 
 // if(global.transicao == false)
 // Avisando sobre a room que irá abrir

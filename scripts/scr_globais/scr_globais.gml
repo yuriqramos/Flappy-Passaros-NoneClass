@@ -65,7 +65,16 @@ function perde_jogo() // Roda quando o jogador perde
 
 function muda_room() // Toca quando troca de room
 {
+	// Avisa que a transição foi tocada[
+	global.transicao = true;
+	
+	// Leva para a room de destino
 	room_goto(global.destino);
 }
 
+function finaliza_transicao() // Toca quando a transição encerra
+{
+	// Informa a variável que a transição encerrou
+	global.transicao = false;
+}
 #endregion
