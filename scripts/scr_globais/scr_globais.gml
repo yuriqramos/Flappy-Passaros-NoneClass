@@ -21,6 +21,9 @@ global.destino = rm_jogo;
 // Variável para saber se a transição foi iniciada
 global.transicao = false;
 
+// Varável global para saber que item está bloqueado
+global.itens_bloqueados = [true, false, false];
+
 #endregion
 
 #region Funções

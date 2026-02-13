@@ -26,7 +26,7 @@
   "name":"spr_botao",
   "nineSlice":{
     "$GMNineSliceData":"",
-    "bottom":23,
+    "bottom":11,
     "enabled":true,
     "guideColour":[4294902015,4294902015,4294902015,4294902015,],
     "highlightColour":1728023040,
@@ -42,7 +42,7 @@
       0,
       0,
     ],
-    "top":23,
+    "top":13,
   },
   "origin":4,
   "parent":{
