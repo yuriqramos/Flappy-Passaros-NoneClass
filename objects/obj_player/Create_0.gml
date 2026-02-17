@@ -7,3 +7,6 @@ bater_asas = 4;
 
 // Define a gravidado do jogador
 vspeed = bater_asas;
+
+// Usando a sprite correta
+sprite_index = global.sprite_player;

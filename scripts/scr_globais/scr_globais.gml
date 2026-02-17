@@ -10,7 +10,7 @@ global.pontos = 0;
 global.level = 1;
 
 // Variável com a quantidade de pontos necessárias para o próximo level
-global.lista_pontos = [10, 25, 50, 80, 120, 180, 250, 350, 500];
+global.lista_pontos = [20, 50, 90, 140, 200, 270, 350, 440, 540];
 
 // Variável de coletáveis
 global.peixes = 0;
@@ -22,7 +22,10 @@ global.destino = rm_jogo;
 global.transicao = false;
 
 // Varável global para saber que item está bloqueado
-global.itens_bloqueados = [true, false, false];
+global.itens_bloqueados = [false, true, true];
+
+// Variável que reserva a sprite do jogador
+global.sprite_player = spr_arara;
 
 #endregion
 
