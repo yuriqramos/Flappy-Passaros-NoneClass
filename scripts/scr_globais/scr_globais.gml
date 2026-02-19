@@ -1,8 +1,5 @@
 ///@descriptions Script que será rodado antes do jogo começar
 
-// Iniciando o debug para ver o framerate do jogo
-show_debug_overlay(true);
-
 #region Variáveis globais
 
 // Variável que avisa se o jogador perdeu
@@ -40,6 +37,9 @@ function perde_jogo() // Roda quando o jogador perde
 {
 	//Checa se o jogador já não perdeu
 	if (global.perdeu) exit;
+	
+	// Toca o som de dano
+	audio_play_sound(snd_passaro_morre, 0, 0, , 0.5)
 	
 	// Ativa a variável de perda para ativar os efeitos
 	global.perdeu = true;

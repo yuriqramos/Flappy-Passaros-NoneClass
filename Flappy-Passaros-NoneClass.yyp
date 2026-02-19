@@ -67,6 +67,7 @@
     {"id":{"name":"sq_transicao2","path":"sequences/sq_transicao2/sq_transicao2.yy",},},
     {"id":{"name":"snd_level_up","path":"sounds/snd_level_up/snd_level_up.yy",},},
     {"id":{"name":"snd_musica_fundo","path":"sounds/snd_musica_fundo/snd_musica_fundo.yy",},},
+    {"id":{"name":"snd_passaro_morre","path":"sounds/snd_passaro_morre/snd_passaro_morre.yy",},},
     {"id":{"name":"snd_peixe_coletado","path":"sounds/snd_peixe_coletado/snd_peixe_coletado.yy",},},
     {"id":{"name":"spr_arara","path":"sprites/spr_arara/spr_arara.yy",},},
     {"id":{"name":"spr_arvore","path":"sprites/spr_arvore/spr_arvore.yy",},},
