@@ -1,3 +1,8 @@
+///@descriptions Script que será rodado antes do jogo começar
+
+// Iniciando o debug para ver o framerate do jogo
+show_debug_overlay(true);
+
 #region Variáveis globais
 
 // Variável que avisa se o jogador perdeu

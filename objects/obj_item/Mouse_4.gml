@@ -1,9 +1,9 @@
 ///@description Compra dos itens no clique
 
-// Checa se o personagem já não está bloqueado 
+// Checa se o personagem está bloqueado
 if (bloqueado == true)
 {
-	if(global.peixes >= custo)
+	if(global.peixes >= custo) // Se tiver dinheiro para comprar o pássaro
 	{
 		// Bloqueando o item
 		bloqueado = false;
@@ -17,7 +17,7 @@ if (bloqueado == true)
 		global.peixes -= custo;
 	}
 }
-else
+else // Se não estiver, apenas altera o pássaro
 {
 	global.sprite_player = sprite;
 }

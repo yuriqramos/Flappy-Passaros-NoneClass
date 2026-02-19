@@ -31,7 +31,6 @@ if (global.transicao == false)
 	global.transicao = true;
 }
 
-// if(global.transicao == false)
 // Avisando sobre a room que irá abrir
 global.destino = destino;
 
